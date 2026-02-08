@@ -1,36 +1,43 @@
-# Mermaid Templates Showcase
-
 <div align="center">
   <img src="/public/merm.png" alt="https://github.com/zebbern/icron/blob/main/case/icron.png" width="400">
   
-  <kbd><b>A beautiful collection of ready-to-use Mermaid diagram templates. Browse, preview, and copy diagram code instantly.</b></kbd>
+  <b>Collection of ready-to-use Mermaid diagram templates. Browse, preview, and copy diagram code instantly.</b>
 </div>
 
-## What is This?
-
-This is a free template library for creating professional diagrams using Mermaid.js. Whether you need flowcharts, sequence diagrams, class diagrams, or any other type of visual diagram, we've got you covered with 125+ pre-made templates.
-
-## Available Diagram Types
+```mermaid
+mindmap
+  root((Available Diagram Types))
+    Flowcharts
+      25 templates
+      Process flows
+      Decision trees
+      Workflows
+    Sequence Diagrams
+      System interactions
+      API flows
+      User interactions
+    Class Diagrams
+      OOP structures
+      Object relationships
+    State Diagrams
+      State machines
+      Lifecycles
+    Gantt Charts
+      Project planning
+      Timelines
+    ER Diagrams
+      Database schemas
+      Entity relationships
+    Pie Charts
+      Data distributions
+      Percentages
+    Mindmaps
+      Organize ideas
+      Concepts
+    Git Graphs
+      Version control
+      Workflows
 ```
-Flowcharts (25 templates) - Create process flows, decision trees, and workflow diagrams
-
-Sequence Diagrams - Show interactions between systems, APIs, and users
-
-Class Diagrams - Visualize object-oriented programming structures
-
-State Diagrams - Map out state machines and lifecycles
-
-Gantt Charts - Plan projects and timelines
-
-ER Diagrams - Design database schemas and relationships
-
-Pie Charts - Display data distributions and percentages
-
-Mindmaps - Organize ideas and concepts
-
-Git Graphs - Visualize version control workflows
-
-Visualize version control workflows
 
 ## How to Use
 
