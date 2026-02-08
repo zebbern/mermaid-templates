@@ -1,54 +1,34 @@
 # Mermaid Templates Showcase
 
-A beautiful collection of ready-to-use Mermaid diagram templates. Browse, preview, and copy diagram code instantly.
+<div align="center">
+  <img src="/public/merm.png" alt="https://github.com/zebbern/icron/blob/main/case/icron.png" width="400">
+  
+  <kbd><b>A beautiful collection of ready-to-use Mermaid diagram templates. Browse, preview, and copy diagram code instantly.</b></kbd>
+</div>
 
 ## What is This?
 
 This is a free template library for creating professional diagrams using Mermaid.js. Whether you need flowcharts, sequence diagrams, class diagrams, or any other type of visual diagram, we've got you covered with 125+ pre-made templates.
 
-## What Can You Do?
-
-- **Browse 125+ Templates** across 9 different diagram categories
-- **Search** for exactly what you need
-- **Preview** diagrams before using them
-- **Copy Code** with a single click
-- **View Details** in a full-screen modal
-
 ## Available Diagram Types
+```
+Flowcharts (25 templates) - Create process flows, decision trees, and workflow diagrams
 
-### Flowcharts (25 templates)
+Sequence Diagrams - Show interactions between systems, APIs, and users
 
-Create process flows, decision trees, and workflow diagrams
+Class Diagrams - Visualize object-oriented programming structures
 
-### Sequence Diagrams (20 templates)
+State Diagrams - Map out state machines and lifecycles
 
-Show interactions between systems, APIs, and users
+Gantt Charts - Plan projects and timelines
 
-### Class Diagrams (15 templates)
+ER Diagrams - Design database schemas and relationships
 
-Visualize object-oriented programming structures
+Pie Charts - Display data distributions and percentages
 
-### State Diagrams (12 templates)
+Mindmaps - Organize ideas and concepts
 
-Map out state machines and lifecycles
-
-### Gantt Charts (10 templates)
-
-Plan projects and timelines
-
-### ER Diagrams (15 templates)
-
-Design database schemas and relationships
-
-### Pie Charts (8 templates)
-
-Display data distributions and percentages
-
-### Mindmaps (12 templates)
-
-Organize ideas and concepts
-
-### Git Graphs (8 templates)
+Git Graphs - Visualize version control workflows
 
 Visualize version control workflows
 
@@ -66,14 +46,6 @@ Visualize version control workflows
 - Project managers
 - Students and educators
 - Anyone who needs quick, professional diagrams
-
-## Features
-
-✨ **Dark Theme** - Easy on the eyes  
-🔍 **Smart Search** - Find templates quickly  
-📋 **One-Click Copy** - Instant code copying  
-🎨 **Live Preview** - See diagrams before using  
-📱 **Responsive Design** - Works on all devices  
 
 ---
 
