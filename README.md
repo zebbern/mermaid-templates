@@ -2,6 +2,10 @@
   <img src="/public/merm.png" alt="https://github.com/zebbern/icron/blob/main/case/icron.png" width="400">
   
   <b>Collection of ready-to-use Mermaid diagram templates. Browse, preview, and copy diagram code instantly.</b>
+
+
+[mermaid-templates.vercel.app](https://mermaid-templates.vercel.app/) 
+
 </div>
 
 ```mermaid
