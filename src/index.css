@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444444;
+}
+
+/* Mermaid diagram dark theme overrides */
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.mermaid {
+  background: transparent !important;
+}
+
+/* Scale diagram to fit container (for card previews) */
+.scale-to-fit-container {
+  position: relative;
+}
+
+.scale-to-fit-container svg {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain;
+}
+
+/* Code block styling */
+.code-block {
+  font-family: 'Fira Code', 'JetBrains Mono', Monaco, Consolas, monospace;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* Copy feedback animation */
+@keyframes copyFlash {
+  0% { background-color: rgba(34, 197, 94, 0.3); }
+  100% { background-color: transparent; }
+}
+
+.copy-flash {
+  animation: copyFlash 0.5s ease-out;
+}
+
+/* Mobile touch targets - minimum 44px */
+.touch-target {
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Smooth mobile transitions */
+@media (prefers-reduced-motion: no-preference) {
+  .sidebar-transition {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+/* Prevent body scroll when mobile menu is open */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 639px) {
+  .code-block {
+    font-size: 11px;
+    line-height: 1.5;
+  }
+}
+
+/* Improved focus states for accessibility */
+.touch-target:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
